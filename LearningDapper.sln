@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{6E9FCE79-33C0-47E5-A06C-F80F0C5BBFDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2330F657-FE2F-46E7-BB42-4B732243743E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer.Tests", "DataLayer.Tests\DataLayer.Tests.csproj", "{756CC108-7D5F-4512-8F8D-2E85BFAA9A2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,8 +34,19 @@ Global
 		{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6E9FCE79-33C0-47E5-A06C-F80F0C5BBFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9FCE79-33C0-47E5-A06C-F80F0C5BBFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9FCE79-33C0-47E5-A06C-F80F0C5BBFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9FCE79-33C0-47E5-A06C-F80F0C5BBFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756CC108-7D5F-4512-8F8D-2E85BFAA9A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756CC108-7D5F-4512-8F8D-2E85BFAA9A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756CC108-7D5F-4512-8F8D-2E85BFAA9A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756CC108-7D5F-4512-8F8D-2E85BFAA9A2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{756CC108-7D5F-4512-8F8D-2E85BFAA9A2E} = {2330F657-FE2F-46E7-BB42-4B732243743E}
 	EndGlobalSection
 EndGlobal
