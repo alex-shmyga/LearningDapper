@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{8969074C-7F80-45E7-B638-8F5394E28EA4}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\Users\Alex\Desktop\database-setup.sql = ..\..\Users\Alex\Desktop\database-setup.sql
+		database-setup.sql = database-setup.sql
 	EndProjectSection
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}"
