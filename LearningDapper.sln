@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		..\..\Users\Alex\Desktop\database-setup.sql = ..\..\Users\Alex\Desktop\database-setup.sql
 	EndProjectSection
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,12 @@ Global
 		{4BE6ADB0-FD6B-4EDB-8CAA-B15C0B6E992C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BE6ADB0-FD6B-4EDB-8CAA-B15C0B6E992C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BE6ADB0-FD6B-4EDB-8CAA-B15C0B6E992C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5652D37-40C1-4AD9-86E4-31A13CC0AE7B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
